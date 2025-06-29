@@ -1,0 +1,1554 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\viewport.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UniverseRenderer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\glad\gl.c">
+      <Filter>src\glad</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stb\stb_image.cpp">
+      <Filter>src\stb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tinyobj\tiny_obj_loader.cpp">
+      <Filter>src\tinyobj</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\glm\detail\glm.cpp">
+      <Filter>libraries\glm\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\glm\glm.cppm">
+      <Filter>libraries\glm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DataLoader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Icon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\HierarchyPanel.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\imgui\backends\imgui_impl_glfw.cpp">
+      <Filter>libraries\imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\imgui\backends\imgui_impl_opengl3.cpp">
+      <Filter>libraries\imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\imgui\imgui.cpp">
+      <Filter>libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\imgui\imgui_draw.cpp">
+      <Filter>libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\imgui\imgui_tables.cpp">
+      <Filter>libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\imgui\imgui_widgets.cpp">
+      <Filter>libraries\imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gui\viewport.hpp">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UniverseRenderer.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shader.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\tinyobj\tiny_obj_loader.h">
+      <Filter>libraries\tinyobj</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glad\gl.h">
+      <Filter>libraries\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\common.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\exponential.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\fwd.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\geometric.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\glm.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\integer.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\mat2x2.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\mat2x3.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\mat2x4.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\mat3x2.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\mat3x3.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\mat3x4.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\mat4x2.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\mat4x3.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\mat4x4.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\matrix.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\packing.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\trigonometric.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\vec2.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\vec3.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\vec4.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\vector_relational.hpp">
+      <Filter>libraries\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\detail\_features.hpp">
+      <Filter>libraries\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\detail\_fixes.hpp">
+      <Filter>libraries\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\detail\_noise.hpp">
+      <Filter>libraries\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\detail\_swizzle.hpp">
+      <Filter>libraries\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\detail\_swizzle_func.hpp">
+      <Filter>libraries\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\detail\_vectorize.hpp">
+      <Filter>libraries\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\detail\compute_common.hpp">
+      <Filter>libraries\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\detail\compute_vector_decl.hpp">
+      <Filter>libraries\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\detail\compute_vector_relational.hpp">
+      <Filter>libraries\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\detail\qualifier.hpp">
+      <Filter>libraries\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\detail\setup.hpp">
+      <Filter>libraries\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\detail\type_float.hpp">
+      <Filter>libraries\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\detail\type_half.hpp">
+      <Filter>libraries\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\detail\type_mat2x2.hpp">
+      <Filter>libraries\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\detail\type_mat2x3.hpp">
+      <Filter>libraries\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\detail\type_mat2x4.hpp">
+      <Filter>libraries\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\detail\type_mat3x2.hpp">
+      <Filter>libraries\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\detail\type_mat3x3.hpp">
+      <Filter>libraries\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\detail\type_mat3x4.hpp">
+      <Filter>libraries\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\detail\type_mat4x2.hpp">
+      <Filter>libraries\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\detail\type_mat4x3.hpp">
+      <Filter>libraries\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\detail\type_mat4x4.hpp">
+      <Filter>libraries\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\detail\type_quat.hpp">
+      <Filter>libraries\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\detail\type_vec1.hpp">
+      <Filter>libraries\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\detail\type_vec2.hpp">
+      <Filter>libraries\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\detail\type_vec3.hpp">
+      <Filter>libraries\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\detail\type_vec4.hpp">
+      <Filter>libraries\glm\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\_matrix_vectorize.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_clip_space.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_common.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_double2x2.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_double2x2_precision.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_double2x3.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_double2x3_precision.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_double2x4.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_double2x4_precision.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_double3x2.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_double3x2_precision.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_double3x3.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_double3x3_precision.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_double3x4.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_double3x4_precision.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_double4x2.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_double4x2_precision.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_double4x3.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_double4x3_precision.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_double4x4.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_double4x4_precision.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_float2x2.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_float2x2_precision.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_float2x3.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_float2x3_precision.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_float2x4.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_float2x4_precision.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_float3x2.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_float3x2_precision.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_float3x3.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_float3x3_precision.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_float3x4.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_float3x4_precision.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_float4x2.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_float4x2_precision.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_float4x3.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_float4x3_precision.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_float4x4.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_float4x4_precision.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_int2x2.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_int2x2_sized.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_int2x3.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_int2x3_sized.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_int2x4.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_int2x4_sized.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_int3x2.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_int3x2_sized.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_int3x3.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_int3x3_sized.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_int3x4.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_int3x4_sized.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_int4x2.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_int4x2_sized.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_int4x3.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_int4x3_sized.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_int4x4.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_int4x4_sized.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_integer.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_projection.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_relational.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_transform.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_uint2x2.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_uint2x2_sized.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_uint2x3.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_uint2x3_sized.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_uint2x4.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_uint2x4_sized.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_uint3x2.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_uint3x2_sized.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_uint3x3.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_uint3x3_sized.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_uint3x4.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_uint3x4_sized.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_uint4x2.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_uint4x2_sized.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_uint4x3.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_uint4x3_sized.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_uint4x4.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\matrix_uint4x4_sized.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\quaternion_common.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\quaternion_double.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\quaternion_double_precision.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\quaternion_exponential.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\quaternion_float.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\quaternion_float_precision.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\quaternion_geometric.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\quaternion_relational.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\quaternion_transform.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\quaternion_trigonometric.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\scalar_common.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\scalar_constants.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\scalar_int_sized.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\scalar_integer.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\scalar_packing.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\scalar_reciprocal.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\scalar_relational.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\scalar_uint_sized.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\scalar_ulp.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_bool1.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_bool1_precision.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_bool2.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_bool2_precision.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_bool3.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_bool3_precision.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_bool4.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_bool4_precision.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_common.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_double1.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_double1_precision.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_double2.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_double2_precision.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_double3.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_double3_precision.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_double4.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_double4_precision.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_float1.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_float1_precision.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_float2.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_float2_precision.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_float3.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_float3_precision.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_float4.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_float4_precision.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_int1.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_int1_sized.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_int2.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_int2_sized.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_int3.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_int3_sized.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_int4.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_int4_sized.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_integer.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_packing.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_reciprocal.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_relational.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_uint1.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_uint1_sized.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_uint2.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_uint2_sized.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_uint3.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_uint3_sized.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_uint4.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_uint4_sized.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\ext\vector_ulp.hpp">
+      <Filter>libraries\glm\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtc\bitfield.hpp">
+      <Filter>libraries\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtc\color_space.hpp">
+      <Filter>libraries\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtc\constants.hpp">
+      <Filter>libraries\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtc\epsilon.hpp">
+      <Filter>libraries\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtc\integer.hpp">
+      <Filter>libraries\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtc\matrix_access.hpp">
+      <Filter>libraries\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtc\matrix_integer.hpp">
+      <Filter>libraries\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtc\matrix_inverse.hpp">
+      <Filter>libraries\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtc\matrix_transform.hpp">
+      <Filter>libraries\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtc\noise.hpp">
+      <Filter>libraries\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtc\packing.hpp">
+      <Filter>libraries\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtc\quaternion.hpp">
+      <Filter>libraries\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtc\random.hpp">
+      <Filter>libraries\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtc\reciprocal.hpp">
+      <Filter>libraries\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtc\round.hpp">
+      <Filter>libraries\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtc\type_aligned.hpp">
+      <Filter>libraries\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtc\type_precision.hpp">
+      <Filter>libraries\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtc\type_ptr.hpp">
+      <Filter>libraries\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtc\ulp.hpp">
+      <Filter>libraries\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtc\vec1.hpp">
+      <Filter>libraries\glm\gtc</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\associated_min_max.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\bit.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\closest_point.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\color_encoding.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\color_space.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\color_space_YCoCg.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\common.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\compatibility.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\component_wise.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\dual_quaternion.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\easing.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\euler_angles.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\extend.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\extended_min_max.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\exterior_product.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\fast_exponential.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\fast_square_root.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\fast_trigonometry.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\functions.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\gradient_paint.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\handed_coordinate_space.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\hash.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\integer.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\intersect.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\io.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\log_base.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\matrix_cross_product.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\matrix_decompose.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\matrix_factorisation.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\matrix_interpolation.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\matrix_major_storage.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\matrix_operation.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\matrix_query.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\matrix_transform_2d.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\mixed_product.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\norm.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\normal.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\normalize_dot.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\number_precision.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\optimum_pow.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\orthonormalize.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\pca.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\perpendicular.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\polar_coordinates.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\projection.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\quaternion.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\range.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\raw_data.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\rotate_normalized_axis.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\rotate_vector.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\scalar_multiplication.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\scalar_relational.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\spline.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\std_based_type.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\string_cast.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\structured_bindings.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\texture.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\transform.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\transform2.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\type_aligned.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\type_trait.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\vec_swizzle.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\vector_angle.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\vector_query.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\gtx\wrap.hpp">
+      <Filter>libraries\glm\gtx</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\simd\common.h">
+      <Filter>libraries\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\simd\exponential.h">
+      <Filter>libraries\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\simd\geometric.h">
+      <Filter>libraries\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\simd\integer.h">
+      <Filter>libraries\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\simd\matrix.h">
+      <Filter>libraries\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\simd\neon.h">
+      <Filter>libraries\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\simd\packing.h">
+      <Filter>libraries\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\simd\platform.h">
+      <Filter>libraries\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\simd\trigonometric.h">
+      <Filter>libraries\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\glm\simd\vector_relational.h">
+      <Filter>libraries\glm\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\KHR\khrplatform.h">
+      <Filter>libraries\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\GLFW\glfw3.h">
+      <Filter>libraries\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\GLFW\glfw3native.h">
+      <Filter>libraries\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\stb\stb_image.h">
+      <Filter>libraries\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\nlohmann\json.hpp">
+      <Filter>libraries\nlohmann</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AstralData.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DataLoader.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Icon.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Camera.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\HierarchyPanel.hpp">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\imgui\backends\imgui_impl_glfw.h">
+      <Filter>libraries\imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\imgui\backends\imgui_impl_opengl3.h">
+      <Filter>libraries\imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\imgui\imconfig.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\imgui\imgui.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\imgui\imgui_internal.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\imgui\imstb_rectpack.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\imgui\imstb_textedit.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\imgui\imstb_truetype.h">
+      <Filter>libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\imgui\backends\imgui_impl_opengl3_loader.h">
+      <Filter>libraries\imgui\backends</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="gui">
+      <UniqueIdentifier>{22b07a60-e824-4ba7-b0d1-334e7d5ec582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8bfbf6de-6fb9-4115-8275-fdbab510f47c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\glad">
+      <UniqueIdentifier>{ab85712c-e513-4a72-88fd-b740d12db394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{ab7969f6-284a-4d09-855f-94eac7bae441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\stb">
+      <UniqueIdentifier>{3a65f65b-7903-4e61-8284-63bc65371cc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tinyobj">
+      <UniqueIdentifier>{2ba5dba4-a166-4259-8407-191421b139a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries">
+      <UniqueIdentifier>{8139e259-8659-4b5c-aae8-1707fe1cfbd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\glad">
+      <UniqueIdentifier>{1c3da779-dc51-4874-afb4-88360d070abf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\glm">
+      <UniqueIdentifier>{f36b2d6f-8bf8-43ec-87e8-71c9b5500e23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\KHR">
+      <UniqueIdentifier>{ed83a34a-5ad1-402a-9a83-a2ae0fcff05f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\stb">
+      <UniqueIdentifier>{6491b431-b9f8-44d4-85fd-24a02ac1204d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\tinyobj">
+      <UniqueIdentifier>{1ca4ce1e-8766-4059-b2d4-6068771389fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\glm\detail">
+      <UniqueIdentifier>{a8205a75-e5e9-4527-8930-71462410e25d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GLFW">
+      <UniqueIdentifier>{2507a37c-483b-4dc8-84fe-ee1606076d98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\GLFW">
+      <UniqueIdentifier>{a25b3492-5e60-4478-af18-acfe3b8c8151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\glm\ext">
+      <UniqueIdentifier>{c2bec9f8-f296-4f0e-8a66-c451925656df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\glm\gtc">
+      <UniqueIdentifier>{d99c4f2a-196f-4998-b727-d2c8e70add19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\glm\gtx">
+      <UniqueIdentifier>{2afe5d7e-1dbf-4182-a57d-f466490dac6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\glm\simd">
+      <UniqueIdentifier>{3867d4e9-7410-4647-ac0a-a79ead725d16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\nlohmann">
+      <UniqueIdentifier>{d0aa09db-ba26-46be-9b8a-e18713578d28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="database">
+      <UniqueIdentifier>{b3cc846d-6960-4df7-839b-89e239ca6d4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\imgui">
+      <UniqueIdentifier>{d994d20c-4dd2-4ad7-8212-18d4d62bb8dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\imgui\backends">
+      <UniqueIdentifier>{8d5ae2d9-98d0-4f3c-93b1-194f5895b2fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\base.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\base.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="src\GLFW\glfw3.dll">
+      <Filter>src\GLFW</Filter>
+    </None>
+    <None Include="libraries\glm\detail\func_common.inl">
+      <Filter>libraries\glm\detail</Filter>
+    </None>
+    <None Include="libraries\glm\detail\func_common_simd.inl">
+      <Filter>libraries\glm\detail</Filter>
+    </None>
+    <None Include="libraries\glm\detail\func_exponential.inl">
+      <Filter>libraries\glm\detail</Filter>
+    </None>
+    <None Include="libraries\glm\detail\func_exponential_simd.inl">
+      <Filter>libraries\glm\detail</Filter>
+    </None>
+    <None Include="libraries\glm\detail\func_geometric.inl">
+      <Filter>libraries\glm\detail</Filter>
+    </None>
+    <None Include="libraries\glm\detail\func_geometric_simd.inl">
+      <Filter>libraries\glm\detail</Filter>
+    </None>
+    <None Include="libraries\glm\detail\func_integer.inl">
+      <Filter>libraries\glm\detail</Filter>
+    </None>
+    <None Include="libraries\glm\detail\func_integer_simd.inl">
+      <Filter>libraries\glm\detail</Filter>
+    </None>
+    <None Include="libraries\glm\detail\func_matrix.inl">
+      <Filter>libraries\glm\detail</Filter>
+    </None>
+    <None Include="libraries\glm\detail\func_matrix_simd.inl">
+      <Filter>libraries\glm\detail</Filter>
+    </None>
+    <None Include="libraries\glm\detail\func_packing.inl">
+      <Filter>libraries\glm\detail</Filter>
+    </None>
+    <None Include="libraries\glm\detail\func_packing_simd.inl">
+      <Filter>libraries\glm\detail</Filter>
+    </None>
+    <None Include="libraries\glm\detail\func_trigonometric.inl">
+      <Filter>libraries\glm\detail</Filter>
+    </None>
+    <None Include="libraries\glm\detail\func_trigonometric_simd.inl">
+      <Filter>libraries\glm\detail</Filter>
+    </None>
+    <None Include="libraries\glm\detail\func_vector_relational.inl">
+      <Filter>libraries\glm\detail</Filter>
+    </None>
+    <None Include="libraries\glm\detail\func_vector_relational_simd.inl">
+      <Filter>libraries\glm\detail</Filter>
+    </None>
+    <None Include="libraries\glm\detail\type_half.inl">
+      <Filter>libraries\glm\detail</Filter>
+    </None>
+    <None Include="libraries\glm\detail\type_mat2x2.inl">
+      <Filter>libraries\glm\detail</Filter>
+    </None>
+    <None Include="libraries\glm\detail\type_mat2x3.inl">
+      <Filter>libraries\glm\detail</Filter>
+    </None>
+    <None Include="libraries\glm\detail\type_mat2x4.inl">
+      <Filter>libraries\glm\detail</Filter>
+    </None>
+    <None Include="libraries\glm\detail\type_mat3x2.inl">
+      <Filter>libraries\glm\detail</Filter>
+    </None>
+    <None Include="libraries\glm\detail\type_mat3x3.inl">
+      <Filter>libraries\glm\detail</Filter>
+    </None>
+    <None Include="libraries\glm\detail\type_mat3x4.inl">
+      <Filter>libraries\glm\detail</Filter>
+    </None>
+    <None Include="libraries\glm\detail\type_mat4x2.inl">
+      <Filter>libraries\glm\detail</Filter>
+    </None>
+    <None Include="libraries\glm\detail\type_mat4x3.inl">
+      <Filter>libraries\glm\detail</Filter>
+    </None>
+    <None Include="libraries\glm\detail\type_mat4x4.inl">
+      <Filter>libraries\glm\detail</Filter>
+    </None>
+    <None Include="libraries\glm\detail\type_mat4x4_simd.inl">
+      <Filter>libraries\glm\detail</Filter>
+    </None>
+    <None Include="libraries\glm\detail\type_quat.inl">
+      <Filter>libraries\glm\detail</Filter>
+    </None>
+    <None Include="libraries\glm\detail\type_quat_simd.inl">
+      <Filter>libraries\glm\detail</Filter>
+    </None>
+    <None Include="libraries\glm\detail\type_vec_simd.inl">
+      <Filter>libraries\glm\detail</Filter>
+    </None>
+    <None Include="libraries\glm\detail\type_vec1.inl">
+      <Filter>libraries\glm\detail</Filter>
+    </None>
+    <None Include="libraries\glm\detail\type_vec2.inl">
+      <Filter>libraries\glm\detail</Filter>
+    </None>
+    <None Include="libraries\glm\detail\type_vec3.inl">
+      <Filter>libraries\glm\detail</Filter>
+    </None>
+    <None Include="libraries\glm\detail\type_vec4.inl">
+      <Filter>libraries\glm\detail</Filter>
+    </None>
+    <None Include="libraries\glm\ext\matrix_clip_space.inl">
+      <Filter>libraries\glm\ext</Filter>
+    </None>
+    <None Include="libraries\glm\ext\matrix_common.inl">
+      <Filter>libraries\glm\ext</Filter>
+    </None>
+    <None Include="libraries\glm\ext\matrix_integer.inl">
+      <Filter>libraries\glm\ext</Filter>
+    </None>
+    <None Include="libraries\glm\ext\matrix_projection.inl">
+      <Filter>libraries\glm\ext</Filter>
+    </None>
+    <None Include="libraries\glm\ext\matrix_relational.inl">
+      <Filter>libraries\glm\ext</Filter>
+    </None>
+    <None Include="libraries\glm\ext\matrix_transform.inl">
+      <Filter>libraries\glm\ext</Filter>
+    </None>
+    <None Include="libraries\glm\ext\quaternion_common.inl">
+      <Filter>libraries\glm\ext</Filter>
+    </None>
+    <None Include="libraries\glm\ext\quaternion_common_simd.inl">
+      <Filter>libraries\glm\ext</Filter>
+    </None>
+    <None Include="libraries\glm\ext\quaternion_exponential.inl">
+      <Filter>libraries\glm\ext</Filter>
+    </None>
+    <None Include="libraries\glm\ext\quaternion_geometric.inl">
+      <Filter>libraries\glm\ext</Filter>
+    </None>
+    <None Include="libraries\glm\ext\quaternion_relational.inl">
+      <Filter>libraries\glm\ext</Filter>
+    </None>
+    <None Include="libraries\glm\ext\quaternion_transform.inl">
+      <Filter>libraries\glm\ext</Filter>
+    </None>
+    <None Include="libraries\glm\ext\quaternion_trigonometric.inl">
+      <Filter>libraries\glm\ext</Filter>
+    </None>
+    <None Include="libraries\glm\ext\scalar_common.inl">
+      <Filter>libraries\glm\ext</Filter>
+    </None>
+    <None Include="libraries\glm\ext\scalar_constants.inl">
+      <Filter>libraries\glm\ext</Filter>
+    </None>
+    <None Include="libraries\glm\ext\scalar_integer.inl">
+      <Filter>libraries\glm\ext</Filter>
+    </None>
+    <None Include="libraries\glm\ext\scalar_packing.inl">
+      <Filter>libraries\glm\ext</Filter>
+    </None>
+    <None Include="libraries\glm\ext\scalar_reciprocal.inl">
+      <Filter>libraries\glm\ext</Filter>
+    </None>
+    <None Include="libraries\glm\ext\scalar_relational.inl">
+      <Filter>libraries\glm\ext</Filter>
+    </None>
+    <None Include="libraries\glm\ext\scalar_ulp.inl">
+      <Filter>libraries\glm\ext</Filter>
+    </None>
+    <None Include="libraries\glm\ext\vector_common.inl">
+      <Filter>libraries\glm\ext</Filter>
+    </None>
+    <None Include="libraries\glm\ext\vector_integer.inl">
+      <Filter>libraries\glm\ext</Filter>
+    </None>
+    <None Include="libraries\glm\ext\vector_packing.inl">
+      <Filter>libraries\glm\ext</Filter>
+    </None>
+    <None Include="libraries\glm\ext\vector_reciprocal.inl">
+      <Filter>libraries\glm\ext</Filter>
+    </None>
+    <None Include="libraries\glm\ext\vector_relational.inl">
+      <Filter>libraries\glm\ext</Filter>
+    </None>
+    <None Include="libraries\glm\ext\vector_ulp.inl">
+      <Filter>libraries\glm\ext</Filter>
+    </None>
+    <None Include="libraries\glm\gtc\bitfield.inl">
+      <Filter>libraries\glm\gtc</Filter>
+    </None>
+    <None Include="libraries\glm\gtc\color_space.inl">
+      <Filter>libraries\glm\gtc</Filter>
+    </None>
+    <None Include="libraries\glm\gtc\constants.inl">
+      <Filter>libraries\glm\gtc</Filter>
+    </None>
+    <None Include="libraries\glm\gtc\epsilon.inl">
+      <Filter>libraries\glm\gtc</Filter>
+    </None>
+    <None Include="libraries\glm\gtc\integer.inl">
+      <Filter>libraries\glm\gtc</Filter>
+    </None>
+    <None Include="libraries\glm\gtc\matrix_access.inl">
+      <Filter>libraries\glm\gtc</Filter>
+    </None>
+    <None Include="libraries\glm\gtc\matrix_inverse.inl">
+      <Filter>libraries\glm\gtc</Filter>
+    </None>
+    <None Include="libraries\glm\gtc\matrix_transform.inl">
+      <Filter>libraries\glm\gtc</Filter>
+    </None>
+    <None Include="libraries\glm\gtc\noise.inl">
+      <Filter>libraries\glm\gtc</Filter>
+    </None>
+    <None Include="libraries\glm\gtc\packing.inl">
+      <Filter>libraries\glm\gtc</Filter>
+    </None>
+    <None Include="libraries\glm\gtc\quaternion.inl">
+      <Filter>libraries\glm\gtc</Filter>
+    </None>
+    <None Include="libraries\glm\gtc\quaternion_simd.inl">
+      <Filter>libraries\glm\gtc</Filter>
+    </None>
+    <None Include="libraries\glm\gtc\random.inl">
+      <Filter>libraries\glm\gtc</Filter>
+    </None>
+    <None Include="libraries\glm\gtc\round.inl">
+      <Filter>libraries\glm\gtc</Filter>
+    </None>
+    <None Include="libraries\glm\gtc\type_precision.inl">
+      <Filter>libraries\glm\gtc</Filter>
+    </None>
+    <None Include="libraries\glm\gtc\type_ptr.inl">
+      <Filter>libraries\glm\gtc</Filter>
+    </None>
+    <None Include="libraries\glm\gtc\ulp.inl">
+      <Filter>libraries\glm\gtc</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\associated_min_max.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\bit.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\closest_point.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\color_encoding.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\color_space.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\color_space_YCoCg.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\common.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\compatibility.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\component_wise.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\dual_quaternion.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\easing.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\euler_angles.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\extend.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\extended_min_max.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\exterior_product.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\fast_exponential.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\fast_square_root.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\fast_trigonometry.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\float_normalize.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\functions.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\gradient_paint.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\handed_coordinate_space.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\hash.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\integer.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\intersect.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\io.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\log_base.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\matrix_cross_product.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\matrix_decompose.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\matrix_factorisation.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\matrix_interpolation.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\matrix_major_storage.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\matrix_operation.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\matrix_query.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\matrix_transform_2d.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\mixed_product.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\norm.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\normal.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\normalize_dot.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\optimum_pow.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\orthonormalize.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\pca.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\perpendicular.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\polar_coordinates.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\projection.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\quaternion.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\raw_data.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\rotate_normalized_axis.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\rotate_vector.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\scalar_relational.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\spline.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\std_based_type.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\string_cast.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\structured_bindings.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\texture.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\transform.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\transform2.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\type_aligned.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\type_trait.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\vector_angle.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\vector_query.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="libraries\glm\gtx\wrap.inl">
+      <Filter>libraries\glm\gtx</Filter>
+    </None>
+    <None Include="database\sol.json">
+      <Filter>database</Filter>
+    </None>
+    <None Include="database\earth.json">
+      <Filter>database</Filter>
+    </None>
+    <None Include="database\jupiter.json">
+      <Filter>database</Filter>
+    </None>
+    <None Include="database\mars.json">
+      <Filter>database</Filter>
+    </None>
+    <None Include="database\mercury.json">
+      <Filter>database</Filter>
+    </None>
+    <None Include="database\neptune.json">
+      <Filter>database</Filter>
+    </None>
+    <None Include="database\saturn.json">
+      <Filter>database</Filter>
+    </None>
+    <None Include="database\uranus.json">
+      <Filter>database</Filter>
+    </None>
+    <None Include="database\venus.json">
+      <Filter>database</Filter>
+    </None>
+    <None Include="database\solsystem.json">
+      <Filter>database</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="src\GLFW\glfw3.lib">
+      <Filter>src\GLFW</Filter>
+    </Library>
+    <Library Include="src\GLFW\glfw3_mt.lib">
+      <Filter>src\GLFW</Filter>
+    </Library>
+    <Library Include="src\GLFW\glfw3dll.lib">
+      <Filter>src\GLFW</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="libraries\glm\CMakeLists.txt">
+      <Filter>libraries\glm</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,19 @@
+{
+  "name": "Uranus",
+  "mesh": "base.obj",
+  "texture": "uranus.bmp",
+  "icon": "uranus.png",
+  "vertexShader": "base.vert",
+  "fragmentShader": "base.frag",
+  "radius": 25362.0,
+  "magnificationScale": 100.0,
+  "rotationSpeed": -501.0,
+  "orbitCenter": "Sol",
+  "orbitRadius": 2871000000.0,
+  "tilt": 97.77,
+  "camera": {
+    "orbital": true,
+    "focusPosition": [ 0.0, 0.0, 0.0 ],
+    "cameraPosition": [ 0.0, 0.0, 0.0 ]
+  }
+}

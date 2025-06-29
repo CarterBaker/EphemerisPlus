@@ -1,0 +1,19 @@
+{
+  "name": "Solar System",
+  "mesh": "",
+  "texture": "",
+  "icon": "",
+  "vertexShader": "",
+  "fragmentShader": "",
+  "radius": 0.0,
+  "magnificationScale": 0.0,
+  "rotationSpeed": 0.0,
+  "orbitCenter": "null",
+  "orbitRadius": 0.0,
+  "tilt": 0.0,
+  "camera": {
+    "orbital": false,
+    "focusPosition": [ 0.0, 0.0, -1.0 ],
+    "cameraPosition": [ 0.0, 80000.0, 0.0 ]
+  }
+}

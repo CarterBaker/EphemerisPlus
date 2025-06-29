@@ -1,0 +1,19 @@
+{
+  "name": "Earth",
+  "mesh": "base.obj",
+  "texture": "earth.bmp",
+  "icon": "earth.png",
+  "vertexShader": "base.vert",
+  "fragmentShader": "base.frag",
+  "radius": 6371.0,
+  "magnificationScale": 100.0,
+  "rotationSpeed": 0.00007292115,
+  "orbitCenter": "Sol",
+  "orbitRadius": 149600000.0,
+  "tilt": 23.44,
+  "camera": {
+    "orbital": true,
+    "focusPosition": [ 0.0, 0.0, 0.0 ],
+    "cameraPosition": [ 0.0, 0.0, 0.0 ]
+  }
+}

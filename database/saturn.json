@@ -1,0 +1,19 @@
+{
+  "name": "Saturn",
+  "mesh": "base.obj",
+  "texture": "saturn.bmp",
+  "icon": "saturn.png",
+  "vertexShader": "base.vert",
+  "fragmentShader": "base.frag",
+  "radius": 58232.0,
+  "magnificationScale": 100.0,
+  "rotationSpeed": 810.0,
+  "orbitCenter": "Sol",
+  "orbitRadius": 1434000000.0,
+  "tilt": 26.73,
+  "camera": {
+    "orbital": true,
+    "focusPosition": [ 0.0, 0.0, 0.0 ],
+    "cameraPosition": [ 0.0, 0.0, 0.0 ]
+  }
+}

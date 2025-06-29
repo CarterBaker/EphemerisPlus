@@ -1,0 +1,19 @@
+{
+  "name": "Jupiter",
+  "mesh": "base.obj",
+  "texture": "jupiter.bmp",
+  "icon": "jupiter.png",
+  "vertexShader": "base.vert",
+  "fragmentShader": "base.frag",
+  "radius": 69911.0,
+  "magnificationScale": 100.0,
+  "rotationSpeed": 870.0,
+  "orbitCenter": "Sol",
+  "orbitRadius": 778500000.0,
+  "tilt": 3.13,
+  "camera": {
+    "orbital": true,
+    "focusPosition": [ 0.0, 0.0, 0.0 ],
+    "cameraPosition": [ 0.0, 0.0, 0.0 ]
+  }
+}

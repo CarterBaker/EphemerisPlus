@@ -1,0 +1,19 @@
+{
+  "name": "Neptune",
+  "mesh": "base.obj",
+  "texture": "neptune.bmp",
+  "icon": "neptune.png",
+  "vertexShader": "base.vert",
+  "fragmentShader": "base.frag",
+  "radius": 24622.0,
+  "magnificationScale": 100.0,
+  "rotationSpeed": 536.0,
+  "orbitCenter": "Sol",
+  "orbitRadius": 4495000000.0,
+  "tilt": 28.32,
+  "camera": {
+    "orbital": true,
+    "focusPosition": [ 0.0, 0.0, 0.0 ],
+    "cameraPosition": [ 0.0, 0.0, 0.0 ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Venus",
+  "mesh": "base.obj",
+  "texture": "venus.bmp",
+  "icon": "venus.png",
+  "vertexShader": "base.vert",
+  "fragmentShader": "base.frag",
+  "radius": 6051.8,
+  "magnificationScale": 100.0,
+  "rotationSpeed": -1.48,
+  "orbitCenter": "Sol",
+  "orbitRadius": 108200000.0,
+  "tilt": 177.4,
+  "camera": {
+    "orbital": true,
+    "focusPosition": [ 0.0, 0.0, 0.0 ],
+    "cameraPosition": [ 0.0, 0.0, 0.0 ]
+  }
+}

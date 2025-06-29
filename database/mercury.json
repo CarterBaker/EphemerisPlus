@@ -1,0 +1,19 @@
+{
+  "name": "Mercury",
+  "mesh": "base.obj",
+  "texture": "mercury.bmp",
+  "icon": "mercury.png",
+  "vertexShader": "base.vert",
+  "fragmentShader": "base.frag",
+  "radius": 2439.7,
+  "magnificationScale": 100.0,
+  "rotationSpeed": 6.14,
+  "orbitCenter": "Sol",
+  "orbitRadius": 57900000.0,
+  "tilt": 0.03,
+  "camera": {
+    "orbital": true,
+    "focusPosition": [ 0.0, 0.0, 0.0 ],
+    "cameraPosition": [ 0.0, 0.0, 0.0 ]
+  }
+}

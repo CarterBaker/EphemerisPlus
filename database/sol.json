@@ -1,0 +1,19 @@
+{
+  "name": "Sol",
+  "mesh": "base.obj",
+  "texture": "sol.bmp",
+  "icon": "sol.png",
+  "vertexShader": "base.vert",
+  "fragmentShader": "base.frag",
+  "radius": 696340.0,
+  "magnificationScale": 20.0,
+  "rotationSpeed": 0,
+  "orbitCenter": "Solar System",
+  "orbitRadius": 0.0,
+  "tilt": 0,
+  "camera": {
+    "orbital": true,
+    "focusPosition": [ 0.0, 0.0, 0.0 ],
+    "cameraPosition": [ 0.0, 0.0, 0.0 ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Mars",
+  "mesh": "mars.obj",
+  "texture": "mars.bmp",
+  "icon": "mars.png",
+  "vertexShader": "base.vert",
+  "fragmentShader": "base.frag",
+  "radius": 3389.5,
+  "magnificationScale": 100.0,
+  "rotationSpeed": 350.9,
+  "orbitCenter": "Sol",
+  "orbitRadius": 227900000.0,
+  "tilt": 25.19,
+  "camera": {
+    "orbital": true,
+    "focusPosition": [ 0.0, 0.0, 0.0 ],
+    "cameraPosition": [ 0.0, 0.0, 0.0 ]
+  }
+}
